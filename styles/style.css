@@ -146,3 +146,28 @@ body section.sec4 > div.sec4sub4:hover {
   cursor: pointer;
   background-color: #00c234;
 }
+
+body section.sec5 {
+  margin-top: 20vw;
+}
+
+body section.sec5 div.sec5sub1 {
+  margin-bottom: 5vw;
+}
+
+body section.sec5 div.sec5sub1 img {
+  display: block;
+  margin: 0 auto;
+}
+
+body section.sec5 div.sec5sub2 {
+  margin: 0 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vw;
+}
+
+body section.sec5 div.sec5sub2 > img:nth-of-type(2) {
+  height: 40%;
+}

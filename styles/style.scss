@@ -128,4 +128,29 @@ body{
 
     }
 
+  section.sec5 {
+    margin-top:20vw;
+    div.sec5sub1 {
+      margin-bottom: 5vw;
+      img {
+        display:block;
+        margin: 0 auto;
+      }
+    }
+    div.sec5sub2 {
+      margin: 0 5vw;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 5vw;
+
+      >img:nth-of-type(2){
+        height:40%;
+      }
+
+    }
+
+
+  }
+
 }
