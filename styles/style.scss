@@ -1,3 +1,17 @@
+@keyframes rotateText {
+  0% { opacity: 0;}
+  8% {opacity: 1;}
+16% { opacity: 0;}
+100% { opacity: 0; }
+}
+@keyframes rotateText2 {
+  0% { opacity: 0.3;}
+  8% {opacity: 1;}
+16% { opacity: 0.3;}
+100% { opacity: 0.3; }
+}
+
+
 body{
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
@@ -129,9 +143,10 @@ body{
     }
 
   section.sec5 {
-    margin-top:20vw;
+    margin-top:10vw;
+    margin-bottom: 5vw;
     div.sec5sub1 {
-      margin-bottom: 5vw;
+      // margin-bottom: 5vw;
       img {
         display:block;
         margin: 0 auto;
@@ -142,12 +157,69 @@ body{
       display:flex;
       justify-content: space-between;
       align-items: center;
-      height: 5vw;
+      // height: 5vw;
 
-      >img:nth-of-type(2){
-        height:40%;
+      >img {
+      opacity: 0.3;
       }
+      >img:nth-of-type(1){
+          animation: rotateText2 30s linear infinite;
+        }
+      >img:nth-of-type(2){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 5s;
+        }
+      >img:nth-of-type(3){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 10s;
+        }
+      >img:nth-of-type(4){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 15s;
+        }
+      >img:nth-of-type(5){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 20s;
+        }
+      >img:nth-of-type(6){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 25s;
+        }
+    }
+    div.sec5sub3 {
+      margin-top: 5vw;
+      text-align:center;
 
+      >p {
+        position:absolute;
+        font-size: 2vw;
+        opacity: 0;
+        padding: 0 12vw;
+
+      }
+      >p:nth-of-type(1){
+          animation: rotateText 30s linear infinite;
+        }
+      >p:nth-of-type(2){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 5s;
+        }
+      >p:nth-of-type(3){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 10s;
+        }
+      >p:nth-of-type(4){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 15s;
+        }
+      >p:nth-of-type(5){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 20s;
+        }
+      >p:nth-of-type(6){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 25s;
+        }
     }
 
 
