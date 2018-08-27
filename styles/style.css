@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   /* A basic css reset */
   padding: 0;
@@ -197,7 +196,8 @@ nav a:hover {
   font-size: 2.5svw;
   margin-right: 3vw;
   margin-left: 3vw;
-=======
+}
+
 @keyframes rotateText {
   0% {
     opacity: 0;
@@ -651,5 +651,4 @@ body section.sec5 div.sec5sub3 > p:nth-of-type(5) {
 body section.sec5 div.sec5sub3 > p:nth-of-type(6) {
   animation: rotateText 30s linear infinite;
   animation-delay: 25s;
->>>>>>> 2e563e1f0b8a93a8d040db6f5b8c59c168d3a151
 }
