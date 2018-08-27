@@ -31,6 +31,10 @@ nav .tobut:hover {
   border: 2px solid lightgreen;
 }
 
+nav a:first-of-type {
+  margin-left: 5vw;
+}
+
 nav a {
   font-size: 1vw;
   color: black;
@@ -735,4 +739,86 @@ body section.sec8 > div:last-of-type > a:last-of-type {
   padding: 1.5vw 2.5vw;
   background: #fff;
   color: #00a82d;
+}
+
+body section.sec9 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8vw;
+}
+
+body section.sec9 > div.logo {
+  margin: 5vw auto;
+  width: 88%;
+  border-bottom: 4px solid black;
+}
+
+body section.sec9 > div.logo > img {
+  width: 15vw;
+}
+
+body section.sec9 div.sec9container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 5% 0 10%;
+}
+
+body section.sec9 div.sec9container > div {
+  flex-grow: 1.2;
+}
+
+body section.sec9 div.sec9container > div > a {
+  text-decoration: none;
+}
+
+body section.sec9 div.sec9container > div > h4 {
+  margin-bottom: 1vw;
+  font-size: 1.1vw;
+  font-weight: 900;
+}
+
+body section.sec9 div.sec9container > div > li {
+  list-style-type: none;
+  font-size: 0.9vw;
+  margin-bottom: 2vw;
+}
+
+body section.sec9 div.sec9container > div > li > a {
+  text-decoration: none;
+  color: #000;
+}
+
+body section.sec9 div.sec9container > div > li > a:hover {
+  color: #00a82d;
+}
+
+body section.sec9 div.sec9container > div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1.5;
+  align-items: baseline;
+  padding: 0 3vw;
+}
+
+body section.sec9 div.sec9container > div:last-of-type > a {
+  font-size: 1vw;
+  font-weight: 700;
+}
+
+body section.sec9 div.sec9container > div:last-of-type > a.tobut {
+  color: #00a82d;
+  border: 2px solid #00a82d;
+  background-color: #fff;
+  padding: 0.7vw 3vw;
+  margin: 0% 2%;
+  font-size: 1vw;
+  transition-duration: 0.4s;
+}
+
+body section.sec9 div.sec9container > div:last-of-type > a.tobut:hover {
+  color: #fff;
+  background-color: #00a82d;
 }
