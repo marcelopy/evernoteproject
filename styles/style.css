@@ -193,7 +193,7 @@ nav a:hover {
 
 .sec4 div:nth-of-type(3) p {
   color: #888b8d;
-  font-size: 2.5svw;
+  font-size: 2.5vw;
   margin-right: 3vw;
   margin-left: 3vw;
 }
@@ -506,7 +506,7 @@ body section.sec44 > div.sec4sub4:hover {
 
 body section.sec5 {
   margin-top: 10vw;
-  margin-bottom: 5vw;
+  margin-bottom: 30vw;
 }
 
 body section.sec5 div.sec5sub1 img {
@@ -651,4 +651,88 @@ body section.sec5 div.sec5sub3 > p:nth-of-type(5) {
 body section.sec5 div.sec5sub3 > p:nth-of-type(6) {
   animation: rotateText 30s linear infinite;
   animation-delay: 25s;
+}
+
+body section.sec8 {
+  background: #00a82d;
+  color: #fff;
+  display: flex;
+  height: 40vw;
+  padding: 10vw 3vw 10vw 7vw;
+  align-items: center;
+}
+
+body section.sec8 > div:first-of-type {
+  flex-grow: 1.6;
+  padding-right: 15vw;
+}
+
+body section.sec8 > div:first-of-type > h3 {
+  font-size: 3.2vw;
+  font-weight: 700;
+}
+
+body section.sec8 > div:first-of-type > p {
+  font-size: 1.8vw;
+  font-weight: 300;
+}
+
+body section.sec8 > div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: space-between;
+  text-align: center;
+}
+
+body section.sec8 > div:last-of-type > a:first-of-type {
+  text-align: left;
+  align-self: center;
+  text-decoration: none;
+  border-radius: 5%;
+  font-size: 1.3vw;
+  padding: 1vw 2.5vw 1vw 1.5vw;
+  background: #fff;
+  color: #000;
+}
+
+body section.sec8 > div:last-of-type > a:first-of-type > img {
+  width: 5%;
+}
+
+body section.sec8 > div:last-of-type > p {
+  font-size: 2vw;
+  margin: 2vw 0;
+}
+
+body section.sec8 > div:last-of-type > input {
+  font-size: 1.6vw;
+  color: rgba(0, 0, 0, 0.4);
+  padding: 1vw 0.3vw 1vw 2vw;
+  border-radius: 5%;
+  width: 90%;
+}
+
+body section.sec8 > div:last-of-type > p:last-of-type {
+  font-size: 0.9vw;
+  text-align: left;
+}
+
+body section.sec8 > div:last-of-type > p:last-of-type > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+body section.sec8 > div:last-of-type > a:last-of-type {
+  width: 80%;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  border-radius: 5%;
+  font-size: 1.2vw;
+  font-weight: 900;
+  padding: 1.5vw 2.5vw;
+  background: #fff;
+  color: #00a82d;
 }
