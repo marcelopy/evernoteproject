@@ -232,7 +232,7 @@ body {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 }
 
-body section.sec4 {
+body section.sec44 {
   margin: 0;
   padding: 0;
   display: flex;
@@ -241,83 +241,83 @@ body section.sec4 {
   font-size: 2.2vw;
 }
 
-body section.sec4 > img {
+body section.sec44 > img {
   margin: 8vw 0;
   width: 5%;
   height: auto;
 }
 
-body section.sec4 > p {
+body section.sec44 > p {
   margin: 0;
   font-size: 1.7vw;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 {
+  body section.sec44 {
     font-size: 4.84vw;
     text-align: center;
   }
-  body section.sec4 > img {
+  body section.sec44 > img {
     width: 18%;
   }
-  body section.sec4 > p {
+  body section.sec44 > p {
     font-size: 3.74vw;
     margin: 5vw 0;
   }
 }
 
-body section.sec4 > div.sec4sub1 {
+body section.sec44 > div.sec4sub1 {
   display: flex;
   margin-top: 14vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 {
+  body section.sec44 > div.sec4sub1 {
     flex-direction: column-reverse;
   }
 }
 
-body section.sec4 > div.sec4sub1 > div:first-of-type {
+body section.sec44 > div.sec4sub1 > div:first-of-type {
   margin-right: 20vw;
   margin-left: 5vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 > div:first-of-type {
+  body section.sec44 > div.sec4sub1 > div:first-of-type {
     margin: 0 5vw;
     text-align: left;
   }
 }
 
-body section.sec4 > div.sec4sub1 > div:first-of-type h3, body section.sec4 > div.sec4sub1 > div:first-of-type a {
+body section.sec44 > div.sec4sub1 > div:first-of-type h3, body section.sec44 > div.sec4sub1 > div:first-of-type a {
   color: #00a82d;
 }
 
-body section.sec4 > div.sec4sub1 > div:first-of-type h3 {
+body section.sec44 > div.sec4sub1 > div:first-of-type h3 {
   font-size: 2.8vw;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 > div:first-of-type h3 {
+  body section.sec44 > div.sec4sub1 > div:first-of-type h3 {
     font-size: 8.4vw;
   }
 }
 
-body section.sec4 > div.sec4sub1 > div:first-of-type p {
+body section.sec44 > div.sec4sub1 > div:first-of-type p {
   font-size: 1.5vw;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 > div:first-of-type p {
+  body section.sec44 > div.sec4sub1 > div:first-of-type p {
     font-size: 3.3vw;
     font-weight: 500;
   }
 }
 
-body section.sec4 > div.sec4sub1 > div:first-of-type a {
+body section.sec44 > div.sec4sub1 > div:first-of-type a {
   text-decoration: none;
   font-size: 1.2vw;
   font-weight: 800;
@@ -325,62 +325,62 @@ body section.sec4 > div.sec4sub1 > div:first-of-type a {
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 > div:first-of-type a {
+  body section.sec44 > div.sec4sub1 > div:first-of-type a {
     font-size: 2.64vw;
   }
 }
 
-body section.sec4 > div.sec4sub1 > div:last-of-type {
+body section.sec44 > div.sec4sub1 > div:last-of-type {
   margin-right: 15vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub1 > div:last-of-type {
+  body section.sec44 > div.sec4sub1 > div:last-of-type {
     margin: 0;
   }
 }
 
-body section.sec4 > div.sec4sub2 {
+body section.sec44 > div.sec4sub2 {
   display: flex;
   margin-top: 14vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub2 {
+  body section.sec44 > div.sec4sub2 {
     flex-direction: column;
   }
 }
 
-body section.sec4 > div.sec4sub2 > div:first-of-type {
+body section.sec44 > div.sec4sub2 > div:first-of-type {
   margin-left: 13vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub2 > div:first-of-type {
+  body section.sec44 > div.sec4sub2 > div:first-of-type {
     margin: 0;
   }
 }
 
-body section.sec4 > div.sec4sub2 > div:last-of-type {
+body section.sec44 > div.sec4sub2 > div:last-of-type {
   margin-left: 13vw;
   margin-right: 4vw;
 }
 
-body section.sec4 > div.sec4sub2 > div:last-of-type h3, body section.sec4 > div.sec4sub2 > div:last-of-type a {
+body section.sec44 > div.sec4sub2 > div:last-of-type h3, body section.sec44 > div.sec4sub2 > div:last-of-type a {
   color: #00a82d;
 }
 
-body section.sec4 > div.sec4sub2 > div:last-of-type h3 {
+body section.sec44 > div.sec4sub2 > div:last-of-type h3 {
   font-size: 2.8vw;
   font-weight: 700;
 }
 
-body section.sec4 > div.sec4sub2 > div:last-of-type p {
+body section.sec44 > div.sec4sub2 > div:last-of-type p {
   font-size: 1.5vw;
   font-weight: 700;
 }
 
-body section.sec4 > div.sec4sub2 > div:last-of-type a {
+body section.sec44 > div.sec4sub2 > div:last-of-type a {
   text-decoration: none;
   font-size: 1.2vw;
   font-weight: 800;
@@ -388,73 +388,73 @@ body section.sec4 > div.sec4sub2 > div:last-of-type a {
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub2 > div:last-of-type {
+  body section.sec44 > div.sec4sub2 > div:last-of-type {
     margin: 0 5vw;
     text-align: left;
   }
-  body section.sec4 > div.sec4sub2 > div:last-of-type h3 {
+  body section.sec44 > div.sec4sub2 > div:last-of-type h3 {
     font-size: 8.24vw;
   }
-  body section.sec4 > div.sec4sub2 > div:last-of-type p {
+  body section.sec44 > div.sec4sub2 > div:last-of-type p {
     font-size: 3.3vw;
     font-weight: 500;
   }
-  body section.sec4 > div.sec4sub2 > div:last-of-type a {
+  body section.sec44 > div.sec4sub2 > div:last-of-type a {
     font-size: 2.64vw;
   }
 }
 
-body section.sec4 > div.sec4sub3 {
+body section.sec44 > div.sec4sub3 {
   display: flex;
   margin: 14vw 0;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub3 {
+  body section.sec44 > div.sec4sub3 {
     flex-direction: column-reverse;
   }
 }
 
-body section.sec4 > div.sec4sub3 > div:first-of-type {
+body section.sec44 > div.sec4sub3 > div:first-of-type {
   margin-right: 20vw;
   margin-left: 5vw;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub3 > div:first-of-type {
+  body section.sec44 > div.sec4sub3 > div:first-of-type {
     margin: 0 5vw;
     text-align: left;
   }
 }
 
-body section.sec4 > div.sec4sub3 > div:first-of-type h3, body section.sec4 > div.sec4sub3 > div:first-of-type a {
+body section.sec44 > div.sec4sub3 > div:first-of-type h3, body section.sec44 > div.sec4sub3 > div:first-of-type a {
   color: #00a82d;
 }
 
-body section.sec4 > div.sec4sub3 > div:first-of-type h3 {
+body section.sec44 > div.sec4sub3 > div:first-of-type h3 {
   font-size: 2.8vw;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub3 > div:first-of-type h3 {
+  body section.sec44 > div.sec4sub3 > div:first-of-type h3 {
     font-size: 8.4vw;
   }
 }
 
-body section.sec4 > div.sec4sub3 > div:first-of-type p {
+body section.sec44 > div.sec4sub3 > div:first-of-type p {
   font-size: 1.5vw;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub3 > div:first-of-type p {
+  body section.sec44 > div.sec4sub3 > div:first-of-type p {
     font-size: 3.3vw;
     font-weight: 500;
   }
 }
 
-body section.sec4 > div.sec4sub3 > div:first-of-type a {
+body section.sec44 > div.sec4sub3 > div:first-of-type a {
   text-decoration: none;
   font-size: 1.2vw;
   font-weight: 800;
@@ -462,16 +462,16 @@ body section.sec4 > div.sec4sub3 > div:first-of-type a {
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub3 > div:first-of-type a {
+  body section.sec44 > div.sec4sub3 > div:first-of-type a {
     font-size: 2.64vw;
   }
 }
 
-body section.sec4 > div.sec4sub3 > div:last-of-type {
+body section.sec44 > div.sec4sub3 > div:last-of-type {
   margin-right: 15vw;
 }
 
-body section.sec4 > div.sec4sub4 {
+body section.sec44 > div.sec4sub4 {
   background: #00a82d;
   border-radius: 5%;
   padding: 1.5vw 1.5vw;
@@ -479,13 +479,13 @@ body section.sec4 > div.sec4sub4 {
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub4 {
+  body section.sec44 > div.sec4sub4 {
     width: 90%;
     padding: 3.7vw 1.5vw;
   }
 }
 
-body section.sec4 > div.sec4sub4 a {
+body section.sec44 > div.sec4sub4 a {
   vertical-align: middle;
   text-decoration: none;
   color: white;
@@ -494,12 +494,12 @@ body section.sec4 > div.sec4sub4 a {
 }
 
 @media only screen and (max-width: 735px) {
-  body section.sec4 > div.sec4sub4 a {
+  body section.sec44 > div.sec4sub4 a {
     font-size: 3vw;
   }
 }
 
-body section.sec4 > div.sec4sub4:hover {
+body section.sec44 > div.sec4sub4:hover {
   cursor: pointer;
   background-color: #00c234;
 }

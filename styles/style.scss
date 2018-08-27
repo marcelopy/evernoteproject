@@ -5,7 +5,7 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
   }
-  
+
   nav {
     background:white;
     display: flex;
@@ -18,7 +18,7 @@
     width: 100%;
 
     .tobut {
-        
+
         color: green;
         border: 2px solid green;
         background: white;
@@ -29,11 +29,11 @@
     &:hover
     {
         color: lightgreen;
-        border: 2px solid lightgreen;   
+        border: 2px solid lightgreen;
     }
     }
   }
-  
+
   nav a {
     font-size: 1vw;
     color: black;
@@ -42,15 +42,15 @@
     padding: 1.5vw 1.4vw;
     text-decoration: none;
   }
-  
+
   nav a img {
     width: 15vw;
-    
+
   }
   nav .toSpace {
     flex-grow: 1;
   }
-  
+
   nav a:hover {
     color: rgba(26, 128, 0, 0.89);
   }
@@ -75,7 +75,7 @@
       align-items: flex-start;
       overflow: hidden;
     color: white;
-    
+
     font-family: 'Montserrat', sans-serif;
     p:nth-of-type(1){
         font-size: 4vw;
@@ -83,9 +83,9 @@
 
     }
     p:nth-of-type(2){
-        font-size: 2vw;   
+        font-size: 2vw;
     }
-    
+
     button {
         color: green;
         background: white;
@@ -95,7 +95,7 @@
         border-radius: 12px;
         border: none;
     }
-      
+
     }
 
       div:nth-of-type(2){
@@ -104,10 +104,10 @@
           margin: 0% 5vw;
           background: url(../images/sec2laptop.png) no-repeat;
           background-size: 100% 100%;
-          
+
       }
 
-      
+
   }
 
   .sec3 {
@@ -130,7 +130,7 @@
     align-items: flex-start;
     overflow: hidden;
   color: black;
-  
+
   font-family: 'Montserrat', sans-serif;
   p:nth-of-type(1){
       font-size: 4vw;
@@ -138,9 +138,9 @@
 
   }
   p:nth-of-type(2){
-      font-size: 2vw;   
+      font-size: 2vw;
   }
-  
+
   button {
       color: white;
       background: green;
@@ -150,7 +150,7 @@
       border-radius: 12px;
       border: none;
   }
-    
+
   }
 
     div:nth-of-type(2){
@@ -159,10 +159,10 @@
         margin: 0% 5vw;
         background: url(../images/sec3img40.png) no-repeat;
         background-size: 100% 100%;
-        
+
     }
 
-    
+
 }
 
 .sec4 {
@@ -189,10 +189,10 @@
     p:nth-of-type(1){
         font-size: 3.5vw;
         font-weight: bold;
-        
-  
+
+
     }
-      
+
 }
 
     div:nth-of-type(3){
@@ -210,7 +210,7 @@
         font-size: 2.5svw;
         margin-right: 3vw;
         margin-left: 3vw;
-    }  
+    }
 }
 }
 
@@ -228,7 +228,7 @@
 }
 body{
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  section.sec4 {
+  section.sec44 {
       margin: 0;
       padding: 0;
       display:flex;
@@ -537,4 +537,3 @@ body{
 
   }
 }
-
