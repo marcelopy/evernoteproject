@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     /* A basic css reset */
     padding: 0;
@@ -212,3 +213,328 @@
     }  
 }
 }
+=======
+@keyframes rotateText {
+  0% { opacity: 0;}
+  8% {opacity: 1;}
+16% { opacity: 0;}
+100% { opacity: 0; }
+}
+@keyframes rotateText2 {
+  0% { opacity: 0.3;}
+  8% {opacity: 1;}
+16% { opacity: 0.3;}
+100% { opacity: 0.3; }
+}
+body{
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  section.sec4 {
+      margin: 0;
+      padding: 0;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 2.2vw;
+      >img {
+        margin: 8vw 0;
+        width:5%;
+        height:auto;
+
+      }
+      >p {
+        margin:0;
+        font-size: 1.7vw;
+        font-weight: 700;
+      }
+      @media only screen and (max-width: 735px) {
+        font-size: 4.84vw;
+        text-align:center;
+        >img{
+          width: 18%;
+
+        }
+        >p {
+          font-size: 3.74vw;
+          margin: 5vw 0;
+        }
+      }
+
+      >div.sec4sub1 {
+        display:flex;
+        margin-top: 14vw;
+        @media only screen and (max-width: 735px) {
+          flex-direction: column-reverse;
+        }
+        >div:first-of-type{
+          margin-right: 20vw;
+          margin-left: 5vw;
+          @media only screen and (max-width: 735px) {
+            margin: 0 5vw;
+            text-align: left;
+          }
+            h3, a {
+              color: #00a82d;
+            }
+            h3 {
+              font-size: 2.8vw;
+              font-weight: 700;
+              @media only screen and (max-width: 735px) {
+                  font-size: 8.4vw;
+                }
+            }
+            p {
+              font-size: 1.5vw;
+              font-weight: 700;
+              @media only screen and (max-width: 735px) {
+                  font-size: 3.3vw;
+                  font-weight: 500;
+                }
+            }
+            a {
+              text-decoration: none;
+              font-size: 1.2vw;
+              font-weight: 800;
+              margin-top: 3vw;
+              @media only screen and (max-width: 735px) {
+                  font-size: 2.64vw;
+                }
+            }
+        }
+        >div:last-of-type {
+          margin-right: 15vw;
+          @media only screen and (max-width: 735px) {
+            margin:0;
+          }
+        }
+      }
+      >div.sec4sub2 {
+        display:flex;
+        margin-top: 14vw;
+        @media only screen and (max-width: 735px) {
+          flex-direction: column;
+        }
+        >div:first-of-type {
+          margin-left: 13vw;
+          @media only screen and (max-width: 735px) {
+          margin:0;
+          }
+        }
+        >div:last-of-type{
+          margin-left: 13vw;
+          margin-right: 4vw;
+            h3, a {
+              color: #00a82d;
+            }
+            h3 {
+              font-size: 2.8vw;
+              font-weight: 700;
+            }
+            p {
+              font-size: 1.5vw;
+              font-weight: 700;
+            }
+            a {
+              text-decoration: none;
+              font-size: 1.2vw;
+              font-weight: 800;
+              margin-top: 3vw;
+            }
+            @media only screen and (max-width: 735px) {
+              margin: 0 5vw;
+              text-align: left;
+              h3 {
+                font-size: 8.24vw;
+              }
+              p {
+                font-size:3.3vw;
+                font-weight: 500;
+              }
+              a {
+                font-size: 2.64vw;
+              }
+            }
+        }
+      }
+      >div.sec4sub3 {
+        display:flex;
+        margin: 14vw 0;
+        @media only screen and (max-width: 735px) {
+          flex-direction: column-reverse;
+          }
+        >div:first-of-type{
+          margin-right: 20vw;
+          margin-left: 5vw;
+          @media only screen and (max-width: 735px) {
+            margin: 0 5vw;
+            text-align: left;
+          }
+            h3, a {
+              color: #00a82d;
+            }
+            h3 {
+              font-size: 2.8vw;
+              font-weight: 700;
+              @media only screen and (max-width: 735px) {
+                  font-size: 8.4vw;
+                }
+            }
+            p {
+              font-size: 1.5vw;
+              font-weight: 700;
+              @media only screen and (max-width: 735px) {
+                  font-size: 3.3vw;
+                  font-weight: 500;
+                }
+            }
+            a {
+              text-decoration: none;
+              font-size: 1.2vw;
+              font-weight: 800;
+              margin-top: 3vw;
+              @media only screen and (max-width: 735px) {
+                  font-size: 2.64vw;
+                }
+            }
+          }
+          >div:last-of-type {
+            margin-right: 15vw;
+          }
+      }
+      >div.sec4sub4 {
+        background: #00a82d;
+        border-radius: 5%;
+        padding: 1.5vw 1.5vw;
+        transition: background-color 0.5s;
+        @media only screen and (max-width: 735px) {
+            width:90%;
+            padding: 3.7vw 1.5vw;
+          }
+        a {
+          vertical-align: middle;
+          text-decoration: none;
+          color: white;
+          font-size: 1.4vw;
+          font-weight: 900;
+          @media only screen and (max-width: 735px) {
+              font-size: 3vw;
+            }
+        }
+        &:hover {
+          cursor: pointer;
+          background-color: lighten(#00a82d, 5%)
+        }
+      }
+    }
+  section.sec5 {
+    margin-top:10vw;
+    margin-bottom: 5vw;
+    div.sec5sub1 {
+      img {
+        width:2%;
+        display:block;
+        margin: 0 auto;
+        @media only screen and (max-width: 735px) {
+            width:5%;
+            margin-bottom: 16vw;
+          }
+      }
+    }
+    div.sec5sub2 {
+      margin: 0 5vw;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      >img {
+      opacity: 0.3;
+      @media only screen and (max-width: 735px) {
+            width: 20%;
+            position:absolute;
+            margin-left: 35%;
+            opacity: 0;
+        }
+      }
+      >img:nth-of-type(1){
+          animation: rotateText2 30s linear infinite;
+            @media only screen and (max-width: 735px) {
+              animation: rotateText 30s linear infinite;
+            }
+
+        }
+      >img:nth-of-type(2){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 5s;
+        @media only screen and (max-width: 735px) {
+          animation: rotateText 30s linear infinite;
+          animation-delay: 5s;
+        }
+        }
+      >img:nth-of-type(3){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 10s;
+        @media only screen and (max-width: 735px) {
+          animation: rotateText 30s linear infinite;
+          animation-delay: 10s;
+        }
+        }
+      >img:nth-of-type(4){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 15s;
+        @media only screen and (max-width: 735px) {
+          animation: rotateText 30s linear infinite;
+          animation-delay: 15s;
+        }
+        }
+      >img:nth-of-type(5){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 20s;
+        @media only screen and (max-width: 735px) {
+          animation: rotateText 30s linear infinite;
+          animation-delay: 20s;
+        }
+        }
+      >img:nth-of-type(6){
+        animation: rotateText2 30s linear infinite;
+        animation-delay: 25s;
+        @media only screen and (max-width: 735px) {
+          animation: rotateText 30s linear infinite;
+          animation-delay: 25s;
+        }
+        }
+    }
+    div.sec5sub3 {
+      margin-top: 5vw;
+      text-align:center;
+      >p {
+        position:absolute;
+        font-size: 2vw;
+        opacity: 0;
+        padding: 0 12vw;
+      }
+      >p:nth-of-type(1){
+          animation: rotateText 30s linear infinite;
+        }
+      >p:nth-of-type(2){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 5s;
+        }
+      >p:nth-of-type(3){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 10s;
+        }
+      >p:nth-of-type(4){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 15s;
+        }
+      >p:nth-of-type(5){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 20s;
+        }
+      >p:nth-of-type(6){
+        animation: rotateText 30s linear infinite;
+        animation-delay: 25s;
+        }
+    }
+
+  }
+}
+>>>>>>> 2e563e1f0b8a93a8d040db6f5b8c59c168d3a151
