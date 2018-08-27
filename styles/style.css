@@ -43,6 +43,8 @@ body section.sec4 {
 
 body section.sec4 > img {
   margin: 8vw 0;
+  width: 5%;
+  height: auto;
 }
 
 body section.sec4 > p {
@@ -51,14 +53,41 @@ body section.sec4 > p {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 {
+    font-size: 4.84vw;
+    text-align: center;
+  }
+  body section.sec4 > img {
+    width: 18%;
+  }
+  body section.sec4 > p {
+    font-size: 3.74vw;
+    margin: 5vw 0;
+  }
+}
+
 body section.sec4 > div.sec4sub1 {
   display: flex;
   margin-top: 14vw;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 {
+    flex-direction: column-reverse;
+  }
+}
+
 body section.sec4 > div.sec4sub1 > div:first-of-type {
   margin-right: 20vw;
   margin-left: 5vw;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 > div:first-of-type {
+    margin: 0 5vw;
+    text-align: left;
+  }
 }
 
 body section.sec4 > div.sec4sub1 > div:first-of-type h3, body section.sec4 > div.sec4sub1 > div:first-of-type a {
@@ -70,9 +99,22 @@ body section.sec4 > div.sec4sub1 > div:first-of-type h3 {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 > div:first-of-type h3 {
+    font-size: 8.4vw;
+  }
+}
+
 body section.sec4 > div.sec4sub1 > div:first-of-type p {
   font-size: 1.5vw;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 > div:first-of-type p {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
 }
 
 body section.sec4 > div.sec4sub1 > div:first-of-type a {
@@ -82,8 +124,20 @@ body section.sec4 > div.sec4sub1 > div:first-of-type a {
   margin-top: 3vw;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 > div:first-of-type a {
+    font-size: 2.64vw;
+  }
+}
+
 body section.sec4 > div.sec4sub1 > div:last-of-type {
   margin-right: 15vw;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub1 > div:last-of-type {
+    margin: 0;
+  }
 }
 
 body section.sec4 > div.sec4sub2 {
@@ -91,8 +145,20 @@ body section.sec4 > div.sec4sub2 {
   margin-top: 14vw;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub2 {
+    flex-direction: column;
+  }
+}
+
 body section.sec4 > div.sec4sub2 > div:first-of-type {
   margin-left: 13vw;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub2 > div:first-of-type {
+    margin: 0;
+  }
 }
 
 body section.sec4 > div.sec4sub2 > div:last-of-type {
@@ -121,14 +187,44 @@ body section.sec4 > div.sec4sub2 > div:last-of-type a {
   margin-top: 3vw;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub2 > div:last-of-type {
+    margin: 0 5vw;
+    text-align: left;
+  }
+  body section.sec4 > div.sec4sub2 > div:last-of-type h3 {
+    font-size: 8.24vw;
+  }
+  body section.sec4 > div.sec4sub2 > div:last-of-type p {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
+  body section.sec4 > div.sec4sub2 > div:last-of-type a {
+    font-size: 2.64vw;
+  }
+}
+
 body section.sec4 > div.sec4sub3 {
   display: flex;
-  margin-top: 14vw;
+  margin: 14vw 0;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub3 {
+    flex-direction: column-reverse;
+  }
 }
 
 body section.sec4 > div.sec4sub3 > div:first-of-type {
   margin-right: 20vw;
   margin-left: 5vw;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub3 > div:first-of-type {
+    margin: 0 5vw;
+    text-align: left;
+  }
 }
 
 body section.sec4 > div.sec4sub3 > div:first-of-type h3, body section.sec4 > div.sec4sub3 > div:first-of-type a {
@@ -140,9 +236,22 @@ body section.sec4 > div.sec4sub3 > div:first-of-type h3 {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub3 > div:first-of-type h3 {
+    font-size: 8.4vw;
+  }
+}
+
 body section.sec4 > div.sec4sub3 > div:first-of-type p {
   font-size: 1.5vw;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub3 > div:first-of-type p {
+    font-size: 3.3vw;
+    font-weight: 500;
+  }
 }
 
 body section.sec4 > div.sec4sub3 > div:first-of-type a {
@@ -152,24 +261,42 @@ body section.sec4 > div.sec4sub3 > div:first-of-type a {
   margin-top: 3vw;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub3 > div:first-of-type a {
+    font-size: 2.64vw;
+  }
+}
+
 body section.sec4 > div.sec4sub3 > div:last-of-type {
   margin-right: 15vw;
 }
 
 body section.sec4 > div.sec4sub4 {
-  margin-top: 10vw;
   background: #00a82d;
   border-radius: 5%;
-  padding: 0.7vw 1.5vw;
+  padding: 1.5vw 1.5vw;
   transition: background-color 0.5s;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub4 {
+    width: 90%;
+    padding: 3.7vw 1.5vw;
+  }
 }
 
 body section.sec4 > div.sec4sub4 a {
   vertical-align: middle;
   text-decoration: none;
   color: white;
-  font-size: 1.1vw;
+  font-size: 1.4vw;
   font-weight: 900;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec4 > div.sec4sub4 a {
+    font-size: 3vw;
+  }
 }
 
 body section.sec4 > div.sec4sub4:hover {
@@ -183,8 +310,16 @@ body section.sec5 {
 }
 
 body section.sec5 div.sec5sub1 img {
+  width: 2%;
   display: block;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub1 img {
+    width: 5%;
+    margin-bottom: 16vw;
+  }
 }
 
 body section.sec5 div.sec5sub2 {
@@ -198,8 +333,23 @@ body section.sec5 div.sec5sub2 > img {
   opacity: 0.3;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img {
+    width: 20%;
+    position: absolute;
+    margin-left: 35%;
+    opacity: 0;
+  }
+}
+
 body section.sec5 div.sec5sub2 > img:nth-of-type(1) {
   animation: rotateText2 30s linear infinite;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(1) {
+    animation: rotateText 30s linear infinite;
+  }
 }
 
 body section.sec5 div.sec5sub2 > img:nth-of-type(2) {
@@ -207,9 +357,23 @@ body section.sec5 div.sec5sub2 > img:nth-of-type(2) {
   animation-delay: 5s;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(2) {
+    animation: rotateText 30s linear infinite;
+    animation-delay: 5s;
+  }
+}
+
 body section.sec5 div.sec5sub2 > img:nth-of-type(3) {
   animation: rotateText2 30s linear infinite;
   animation-delay: 10s;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(3) {
+    animation: rotateText 30s linear infinite;
+    animation-delay: 10s;
+  }
 }
 
 body section.sec5 div.sec5sub2 > img:nth-of-type(4) {
@@ -217,14 +381,35 @@ body section.sec5 div.sec5sub2 > img:nth-of-type(4) {
   animation-delay: 15s;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(4) {
+    animation: rotateText 30s linear infinite;
+    animation-delay: 15s;
+  }
+}
+
 body section.sec5 div.sec5sub2 > img:nth-of-type(5) {
   animation: rotateText2 30s linear infinite;
   animation-delay: 20s;
 }
 
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(5) {
+    animation: rotateText 30s linear infinite;
+    animation-delay: 20s;
+  }
+}
+
 body section.sec5 div.sec5sub2 > img:nth-of-type(6) {
   animation: rotateText2 30s linear infinite;
   animation-delay: 25s;
+}
+
+@media only screen and (max-width: 735px) {
+  body section.sec5 div.sec5sub2 > img:nth-of-type(6) {
+    animation: rotateText 30s linear infinite;
+    animation-delay: 25s;
+  }
 }
 
 body section.sec5 div.sec5sub3 {
