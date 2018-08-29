@@ -1124,7 +1124,7 @@ body section.sec9 div.sec9container > div:last-of-type > a.tobut:hover {
 
 .sec7 .divsec7 div:nth-of-type(6) div:nth-of-type(1) {
   width: 50%;
-  height: 50%;
+  height: 50;
   background: url(../images/sec7n6.png) no-repeat;
   background-size: 100% 100%;
 }
@@ -1132,4 +1132,19 @@ body section.sec9 div.sec9container > div:last-of-type > a.tobut:hover {
 .sec7 .divsec7 div:nth-of-type(6) p:nth-of-type(1) {
   font-weight: bold;
   font-size: 1.8vw;
+}
+
+section.sec10 {
+  width: 90%;
+  margin: 0 auto 5vw auto;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+
+section.sec10 > div:first-of-type {
+  flex-grow: 75;
+}
+
+section.sec10 > div {
+  flex-grow: 4.16;
 }

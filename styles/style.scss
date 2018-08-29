@@ -711,7 +711,7 @@ button {
     &:hover {
       background: rgba(26, 128, 0, 0.89);
     }
-    
+
 }
 
   .divsec6 {
@@ -976,7 +976,7 @@ div:nth-of-type(6){
 
   div:nth-of-type(1){
     width: 50%;
-    height: 50%;
+    height: 50;
     background: url(../images/sec7n6.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -988,4 +988,18 @@ p:nth-of-type(1){
 }
 
 }
+}
+section.sec10 {
+  width: 90%;
+  margin: 0 auto 5vw auto;
+  border-bottom: 1px solid black;
+  display:flex;
+
+  >div:first-of-type{
+    flex-grow: 75;
+  }
+  >div {
+    flex-grow: 4.16;
+
+  }
 }
