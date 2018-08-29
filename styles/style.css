@@ -1145,6 +1145,11 @@ section.sec10 {
 section.sec10 > div:first-of-type {
   flex-grow: 75;
   text-align: left;
+  font-weight: 900;
+}
+
+section.sec10 > div:first-of-type > select {
+  border: none;
 }
 
 section.sec10 > div {
@@ -1156,19 +1161,26 @@ section.sec10 > div {
 section.sec11 {
   width: 90%;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 5vw auto;
 }
 
 section.sec11 > div:first-of-type {
-  flex-grow: 55;
+  flex-grow: 85;
   text-align: left;
 }
 
 section.sec11 > div {
-  flex-grow: 15;
+  flex-grow: 5;
   text-align: right;
 }
 
 section.sec11 > div > a {
+  color: #888b8d;
+  opacity: 1;
+  font-weight: 900;
   text-decoration: none;
+}
+
+section.sec11 > div > a:hover {
+  color: black;
 }

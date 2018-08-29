@@ -999,6 +999,10 @@ section.sec10 {
   >div:first-of-type{
     flex-grow: 75;
     text-align: left;
+    font-weight: 900;
+      >select {
+        border: none;
+      }
   }
   >div {
     flex-grow: 4.16;
@@ -1010,16 +1014,22 @@ section.sec10 {
 section.sec11 {
   width: 90%;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 5vw auto;
   >div:first-of-type {
-    flex-grow: 55;
+    flex-grow: 85;
     text-align: left;
   }
   >div {
-    flex-grow: 15;
-    text-align: right;
+    flex-grow: 5;
+    text-align:right;
     >a{
-    text-decoration: none;
+      color: #888b8d;
+      opacity:1;
+      font-weight: 900;
+      text-decoration: none;
+    &:hover{
+      color: rgb(0,0,0);
+        }
       }
     }
 }
