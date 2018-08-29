@@ -1136,15 +1136,39 @@ body section.sec9 div.sec9container > div:last-of-type > a.tobut:hover {
 
 section.sec10 {
   width: 90%;
-  margin: 0 auto 5vw auto;
-  border-bottom: 1px solid black;
+  margin: 0 auto 3vw auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   display: flex;
+  padding-bottom: 2vw;
 }
 
 section.sec10 > div:first-of-type {
   flex-grow: 75;
+  text-align: left;
 }
 
 section.sec10 > div {
   flex-grow: 4.16;
+  margin: 0 auto;
+  text-align: right;
+}
+
+section.sec11 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+
+section.sec11 > div:first-of-type {
+  flex-grow: 55;
+  text-align: left;
+}
+
+section.sec11 > div {
+  flex-grow: 15;
+  text-align: right;
+}
+
+section.sec11 > div > a {
+  text-decoration: none;
 }

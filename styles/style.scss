@@ -991,15 +991,35 @@ p:nth-of-type(1){
 }
 section.sec10 {
   width: 90%;
-  margin: 0 auto 5vw auto;
-  border-bottom: 1px solid black;
+  margin: 0 auto 3vw auto;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
   display:flex;
+  padding-bottom: 2vw;
 
   >div:first-of-type{
     flex-grow: 75;
+    text-align: left;
   }
   >div {
     flex-grow: 4.16;
+    margin: 0 auto;
+    text-align: right;
+    }
+}
 
+section.sec11 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  >div:first-of-type {
+    flex-grow: 55;
+    text-align: left;
   }
+  >div {
+    flex-grow: 15;
+    text-align: right;
+    >a{
+    text-decoration: none;
+      }
+    }
 }
