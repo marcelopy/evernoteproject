@@ -538,6 +538,16 @@ body section.sec5 div.sec5sub2 > img {
   opacity: 0.3;
 }
 
+body section.sec5 div.sec5sub2 > img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+body section.sec5 div.sec5sub2 > img:focus {
+  background-color: black;
+  outline: none;
+}
+
 @media only screen and (max-width: 735px) {
   body section.sec5 div.sec5sub2 > img {
     width: 20%;
