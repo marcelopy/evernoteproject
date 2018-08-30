@@ -447,6 +447,72 @@ body{
       display:flex;
       justify-content: space-between;
       align-items: center;
+      >p {
+        text-align:center;
+      }
+      >p.text1 {
+        display: none;
+        position:absolute;
+        background: white;
+        height:8vw;
+        z-index:4;
+        top:322vw;
+        font-size: 2vw;
+        padding: 0 9.7vw;
+
+        }
+        >p.text2 {
+          display: none;
+          position:absolute;
+          background: white;
+          height:8vw;
+          z-index:4;
+          top:322vw;
+          font-size: 2vw;
+          padding: 0 12vw;
+          }
+        >p.text3 {
+          display: none;
+          position:absolute;
+          background: white;
+          height:8vw;
+          z-index:4;
+          top:322vw;
+          font-size: 2vw;
+          padding: 0 12vw;
+          }
+        >p.text4 {
+          display: none;
+          position:absolute;
+          background: white;
+          height:8vw;
+          z-index:4;
+          top:322vw;
+          font-size: 2vw;
+          padding: 0 12vw;
+          }
+        >p.text5 {
+          display: none;
+          position:absolute;
+          background: white;
+          height:8vw;
+          z-index:4;
+          top:322vw;
+          font-size: 2vw;
+          padding: 0 12vw;
+          }
+        >p.text6 {
+          display: none;
+          position:absolute;
+          background: white;
+          height:8vw;
+          z-index:4;
+          top:322vw;
+          font-size: 2vw;
+          padding: 0 12vw;
+          }
+
+
       >img {
       opacity: 0.3;
       &:hover {
@@ -454,7 +520,6 @@ body{
        opacity: 1;
        }
       &:focus {
-        background-color: black;
         outline: none;
       }
       @media only screen and (max-width: 735px) {
@@ -466,6 +531,9 @@ body{
       }
       >img:nth-of-type(1){
           animation: rotateText2 30s linear infinite;
+          &:focus ~ .text1 {
+            display:block;
+          }
             @media only screen and (max-width: 735px) {
               animation: rotateText 30s linear infinite;
             }
@@ -474,6 +542,9 @@ body{
       >img:nth-of-type(2){
         animation: rotateText2 30s linear infinite;
         animation-delay: 5s;
+        &:focus ~ .text2 {
+          display:block;
+        }
         @media only screen and (max-width: 735px) {
           animation: rotateText 30s linear infinite;
           animation-delay: 5s;
@@ -482,6 +553,9 @@ body{
       >img:nth-of-type(3){
         animation: rotateText2 30s linear infinite;
         animation-delay: 10s;
+        &:focus ~ .text3 {
+          display:block;
+        }
         @media only screen and (max-width: 735px) {
           animation: rotateText 30s linear infinite;
           animation-delay: 10s;
@@ -490,6 +564,9 @@ body{
       >img:nth-of-type(4){
         animation: rotateText2 30s linear infinite;
         animation-delay: 15s;
+        &:focus ~ .text4 {
+          display:block;
+        }
         @media only screen and (max-width: 735px) {
           animation: rotateText 30s linear infinite;
           animation-delay: 15s;
@@ -498,6 +575,9 @@ body{
       >img:nth-of-type(5){
         animation: rotateText2 30s linear infinite;
         animation-delay: 20s;
+        &:focus ~ .text5 {
+          display:block;
+        }
         @media only screen and (max-width: 735px) {
           animation: rotateText 30s linear infinite;
           animation-delay: 20s;
@@ -506,6 +586,9 @@ body{
       >img:nth-of-type(6){
         animation: rotateText2 30s linear infinite;
         animation-delay: 25s;
+        &:focus ~ .text6 {
+          display:block;
+        }
         @media only screen and (max-width: 735px) {
           animation: rotateText 30s linear infinite;
           animation-delay: 25s;
