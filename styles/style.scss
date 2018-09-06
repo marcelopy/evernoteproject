@@ -456,9 +456,10 @@ body{
         background: white;
         height:8vw;
         z-index:4;
-        top:322vw;
+        top:349vw;
+        right: 1vw;
         font-size: 2vw;
-        padding: 0 9.7vw;
+        padding: 0 12vw;
 
         }
         >p.text2 {
@@ -467,9 +468,9 @@ body{
           background: white;
           height:8vw;
           z-index:4;
-          top:322vw;
+          top:349vw;
           font-size: 2vw;
-          padding: 0 12vw;
+          padding: 0 10vw 0 5.9vw;
           }
         >p.text3 {
           display: none;
@@ -477,7 +478,8 @@ body{
           background: white;
           height:8vw;
           z-index:4;
-          top:322vw;
+          top:349vw;
+          right: 1vw;
           font-size: 2vw;
           padding: 0 12vw;
           }
@@ -487,7 +489,8 @@ body{
           background: white;
           height:8vw;
           z-index:4;
-          top:322vw;
+          top:349vw;
+          right: 1vw;
           font-size: 2vw;
           padding: 0 12vw;
           }
@@ -497,9 +500,9 @@ body{
           background: white;
           height:8vw;
           z-index:4;
-          top:322vw;
+          top:349vw;
           font-size: 2vw;
-          padding: 0 12vw;
+          padding: 0 10vw 0 6vw;
           }
         >p.text6 {
           display: none;
@@ -507,7 +510,8 @@ body{
           background: white;
           height:8vw;
           z-index:4;
-          top:322vw;
+          top:349vw;
+          right: 1vw;
           font-size: 2vw;
           padding: 0 12vw;
           }
@@ -517,7 +521,6 @@ body{
       opacity: 0.3;
       &:hover {
        cursor: pointer;
-       opacity: 1;
        }
       &:focus {
         outline: none;
